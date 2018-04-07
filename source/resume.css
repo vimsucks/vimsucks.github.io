@@ -1,8 +1,8 @@
-body {
+.post-body {
   font-family: "Source Han Serif CN", FontAwesome, serif;
 }
 
-blockquote {
+.post-body>blockquote {
   font-family: Carlito, sans-serif;
   font-style: italic;
 }
