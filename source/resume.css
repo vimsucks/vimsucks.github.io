@@ -1,15 +1,15 @@
-.post-body {
+html {
   font-family: "Source Han Serif CN", FontAwesome, serif;
 }
 
-.post-body>blockquote {
+blockquote {
   font-family: Carlito, sans-serif;
   font-style: italic;
   margin-top: 0;
   margin-bottom: 8px;
 }
 
-.post-body>blockquote>p {
+blockquote>p {
   margin-top: 0;
   margin-bottom: 0;
 }
