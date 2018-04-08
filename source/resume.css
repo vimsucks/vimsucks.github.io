@@ -5,4 +5,11 @@
 .post-body>blockquote {
   font-family: Carlito, sans-serif;
   font-style: italic;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.post-body>blockquote>p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
