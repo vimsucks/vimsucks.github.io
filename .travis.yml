@@ -1,0 +1,33 @@
+language: node_js
+
+node_js: stable
+
+branches:
+    only:
+        - source
+
+env:
+    global:
+        - GH_REF: github.com/vimsucks/vimsucks.github.io
+
+install:
+    - npm install
+
+script:
+    - hexo clean
+    - hexo g
+
+before_script:
+    - mkdir -p themes/next
+    - curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d '"' -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
+    - rm themes/next/_config.yml
+    - cp theme_config/next_config.yml themes/next/_config.yml
+
+after_script:
+    - cd ./public
+    - git init
+    - git config user.name "Vimsucks"
+    - git config user.email "dev@vimsucks.com"
+    - git add .
+    - git commit -m "Travis CI Auto Builder"
+    - git push --force "https://${GH_TOKEN}@${GH_REF}" master:master
