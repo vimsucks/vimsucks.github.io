@@ -9,9 +9,7 @@ tags:
 ```xml
 <bean id="user" class="modle.User" scope="prototype"></bean>
 ```
-
 or
-
 ```java
 @Component
 @Scope("prototype")
