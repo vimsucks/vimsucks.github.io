@@ -3,7 +3,7 @@ title: Atom 编辑器 部分问题解决方法
 date: 2018-02-13 22:38:10
 tags:
     - 编辑器
-    - atom
+    - Atom
     - troubleshoots
 ---
 

@@ -2,8 +2,8 @@
 title: Arch Linux 修改优化
 date: 2018-02-13 22:28:21
 tags:
-    - linux
-    - archlinux
+    - Linux
+    - Arch Linux
 ---
 
 ## 禁用 Watchdogs

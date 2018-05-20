@@ -2,7 +2,7 @@
 title: 工具清单
 date: 2018-03-08 20:49:55
 tags:
-    - linux
+    - Linux
     - 工具
 ---
 
