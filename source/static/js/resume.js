@@ -1,5 +1,5 @@
 var jobIntensions = {
-    "default": "软件开发工程师实习生",
+    "default": "Java开发工程师实习生",
     "huawei": "IT应用软件开发工程师实习生",
     "cainiao": "研发工程师JAVA实习生",
     "meili": "后端开发实习生",
