@@ -19,6 +19,7 @@
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.2",
+    "lodash": "^4.17.13",
     "node-sass": "^4.9.0"
   },
   "scripts": {
